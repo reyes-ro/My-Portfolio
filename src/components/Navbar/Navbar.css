@@ -17,6 +17,9 @@ nav {
   height: 100%;
   cursor: pointer;
 }
+.link.active{
+  color: red;
+}
 .mobile-menu-icon {
   display: none;
 }

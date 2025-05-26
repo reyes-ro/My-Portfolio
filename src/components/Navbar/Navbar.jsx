@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import navItems from "../NavItems";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 // import { FaBars } from "react-icons/fa";
 
 const Navbar = ({ toggle }) => {
@@ -25,14 +25,14 @@ const Navbar = ({ toggle }) => {
           <path d="M3.022 12.628c-.283 -4.043 8.717 -7.228 11.248 -2.688"></path>
           <path d="M12.628 20.978c-2.993 .21 -5.162 -4.725 -3.567 -9.748"></path>
         </svg>
-        Name
+        Ronald Reyes
       </Link>
 
       <div className="menu-items">
         {navItems.map((item, index) => (
-          <Link className="link" to={item.link} key={index}>
+          <NavLink className={({ isActive }) => isActive ? "link active" : "link"} to={item.link} key={index}>
             {item.title}
-          </Link>
+          </NavLink>
         ))}
       </div>
 
