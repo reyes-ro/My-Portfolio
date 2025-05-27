@@ -4,12 +4,16 @@ const navbarItems = [
     link: "/about",
   },
   {
-    title: "Services",
-    link: "/services",
-  },
-  {
     title: "Skills",
     link: "/skills",
+  },
+  {
+    title: "Projects",
+    link: "/projects",
+  },
+  {
+    title: "Contact",
+    link: "/contact",
   },
 ];
 

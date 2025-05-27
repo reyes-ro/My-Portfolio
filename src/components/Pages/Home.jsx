@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../Hero";
 
-const About = () => {
+const Home = () => {
   return (
     <div style={{ position: "relative", marginTop: "0px", fontSize: "15px"}} className="page about" >
 
@@ -11,4 +11,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Home;
