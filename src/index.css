@@ -6,26 +6,26 @@ body {
   padding: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  color: #333;
   line-height: 1.6;
-  background-color: #fafafa;
+
+
 }
 
 /* Navigation styling */
 nav {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 500;
-  color: black; 
-  background-color: #ffffff;
+
+  background-color: black;
   padding: 1rem 2rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 nav a{
   text-decoration: none;
-  color: black;
+  color:white;
 }
 
 /* Header styling */
@@ -65,11 +65,19 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color:     white;
   }
+  nav{
+    background-color: white;
+  }
+  nav a{
+  color:black;
+  }
+
+
   a:hover {
     color: #747bff;
   }

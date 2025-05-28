@@ -3,7 +3,7 @@ import Hero from "../Hero";
 
 const About = () => {
   return (
-    <div style={{ position: "relative", marginTop: "0px", fontSize: "15px"}} className="page about" >
+    <div style={{ position: "relative", marginTop: "100px", fontSize: "15px"}} className="page about" >
 
       <Hero/>
 

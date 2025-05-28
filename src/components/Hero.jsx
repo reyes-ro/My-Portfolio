@@ -1,4 +1,5 @@
 import React from 'react'
+import './Hero.css'
 import MyPhotoJPSME from '../assets/MyPhotoJPSME.jpg'
 
 const Hero = () => {
