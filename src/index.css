@@ -7,42 +7,54 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.6;
-
+  background-color: #1e1e1e;  
 
 }
 
 /* Navigation styling */
 nav {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   /* text-transform: uppercase; */
-  font-weight: 500;
-
-  background-color: black;
+  font-weight: 600;
   padding: 1rem 2rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+
+  /* 5/29/2025 */
+  /* background-color: black; */
+
+
+
+  /* 5/29/2025 */
+  background: rgba(36, 36, 36, 0); /* grey with transparency */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+
 }
 
 nav a{
   text-decoration: none;
-  color:white;
+  color:#DFDFD6;
 }
 
 /* Header styling */
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Manrope', serif;
   font-size: 48px;
   font-weight: 700;
   margin: 1rem 2rem;
-  color: #222;
+  color: #DFDFD6;
 }
 
 /* Paragraph styling */
 p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
   margin: 0 2rem 1.5rem 2rem;
-  color: #555;
+  color: #A3A3A3;
 }
 
 
@@ -65,7 +77,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color:     white;

@@ -7,9 +7,9 @@ import MyLogo from '/myLogo.svg'
 const Navbar = ({ toggle }) => {
   return (
     <nav>
-      <NavLink to="/" className={({ isActive }) => isActive ? "link active" : "link"}>
-        <img src={MyLogo} alt="my_logo" width={"50px"} height={"50px"} />
-        Ronald Reyes
+      <NavLink to="/" className={({ isActive }) => isActive ? "link brand active" : "link brand"}>
+        <img src={MyLogo} alt="my_logo" className="my_logo" width={"35px"} height={"35px"} />
+        <span>Reyesro</span>
       </NavLink>
 
       <div className="menu-items">
@@ -46,6 +46,7 @@ const Navbar = ({ toggle }) => {
         </div>
 
       {/* </div> */}
+
 
     </nav>
   );

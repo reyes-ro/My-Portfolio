@@ -10,12 +10,8 @@
 }
 
 .Hero{
-    /* background: radial-gradient(
-    ellipse at 50% 50%,
-    #646cff 0%,
-    #747bff 30%,
-    #1a1a1a 60%
-    ); */
+    background: radial-gradient(circle at right center, #4b296980, #563277, #4a378c 50%, #4066a8 70%, #32517380);
+    mask-image: radial-gradient(ellipse 80% 40% at center center, #000 20%, #00000080 50%, #0000);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -23,6 +19,107 @@
     justify-content: center;
     color: white;
     text-align: center;
-
-    width: 100vw
+    background-color: #1e1e1e;      
+    color: #dcdcdc;    
+    width: 100vw;
+    height: 1000px;
 }
+
+.Hero_Details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Greet{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.Greet h1{
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+
+.bubble_chat{
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  z-index: 0; /* So siblings can overlay if needed */
+}
+
+
+.landing .btn {
+    display: flex;
+    padding: 10px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-shadow: 0 0 2px rgba(0, 0, 0, .2);
+    transition: all .2s ease-in-out;
+    width: fit-content;
+}
+
+
+.landing .btn.btn--primary {
+    position: relative;
+    background: radial-gradient(141.42% 141.42% at 100% 0%, #fff6, #fff0), radial-gradient(140.35% 140.35% at 100% 94.74%, #bd34fe, #bd34fe00), radial-gradient(89.94% 89.94% at 18.42% 15.79%, #41d1ff, #41d1ff00);
+    box-shadow: 0 1px #ffffffbf inset;
+}
+
+.landing .btn.btn--primary:hover {
+    background: radial-gradient(141.42% 141.42% at 100% 0%, #ffffff80, #fff0), radial-gradient(140.35% 140.35% at 100% 94.74%, #bd34fe, #bd34fe00), radial-gradient(89.94% 89.94% at 18.42% 15.79%, #41d1ff, #41d1ff00);
+    box-shadow: 0 1.5px #fffc inset;
+    cursor: pointer;
+}
+
+
+
+
+.icon-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding-top: 6rem;
+}
+
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  background-color: #333;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.icon-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-btn.github { background-color: #24292e; }
+.icon-btn.linkedin { background-color: #0077b5; }
+.icon-btn.facebook { background-color: #1877f2; }
+
+.icon-btn:hover {
+  opacity: 0.8;
+}
+

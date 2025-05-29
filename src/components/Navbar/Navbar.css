@@ -10,6 +10,9 @@ nav {
   width: 100%;
 
 }
+.my_logo{
+  border-radius: 10%;
+}
 .link {
   /* moved to index.css */
   /* text-decoration: none; */
@@ -22,7 +25,24 @@ nav {
   cursor: pointer;
 }
 .link.active{
-  color: red;
+  color: #9499FF;
+}
+.link.brand{
+
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.link.brand .span{
+  margin: 0;
+  padding: 0;
+}
+.link.brand.active{
+  color:#DFDFD6;
+
 }
 .mobile-menu-icon {
   display: none;
