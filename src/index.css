@@ -7,7 +7,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  background-color: #1e1e1e;  
+  background-color:  #101010;  
 
 }
 
@@ -43,11 +43,14 @@ nav a{
 /* Header styling */
 h1 {
   font-family: 'Manrope', serif;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   margin: 1rem 2rem;
   color: #DFDFD6;
 }
+/* .Home-Header{
+  font-size: 30px;
+} */
 
 /* Paragraph styling */
 p {

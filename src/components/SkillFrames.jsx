@@ -21,7 +21,8 @@ import github_logo from '../assets/github.png'
 const SkillFrames = () => {
   return (
     <div className="skillframe">
-    <h1 className="framework-header">My Skill Set</h1>
+    <h1 className="framework-header">My Technology Stack</h1>
+    <div className="divider"></div>
     <div className="frameworks-container">
         <div className="framework-row"  >
             <a href="/#" rel="noopener" className="framework_card active" >
