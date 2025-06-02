@@ -7,6 +7,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/Pages/Home";
 import NotFound from "./components/Pages/NotFound";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [isSideBarOpen, setIsSideBarOpen] = useState(false);
@@ -24,6 +25,7 @@ function App() {
         {/* <Route path="/services" element={<Services />} /> */}
         <Route path="*" element={<NotFound />} /> {/* Catch-all route */}
       </Routes>
+      <Footer/>
     </>
   );
 }

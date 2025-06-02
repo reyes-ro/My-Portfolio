@@ -48,9 +48,12 @@ h1 {
   margin: 1rem 2rem;
   color: #DFDFD6;
 }
-/* .Home-Header{
-  font-size: 30px;
-} */
+.Home-Header{
+    --text-color: #41D1FF;
+    background: radial-gradient(circle 300px at 30% -180%, var(--text-color) 0%, #ffffff 100%);
+    -webkit-text-fill-color: transparent;
+        background-clip: text;
+}
 
 /* Paragraph styling */
 p {
